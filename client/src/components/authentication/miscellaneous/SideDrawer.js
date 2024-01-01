@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import { Tooltip } from '@chakra-ui/tooltip';
+import { Tooltip } from '@chakra-ui/react';
 import { BellIcon, ChevronDownIcon } from "@chakra-ui/icons";
-import { Box, Text } from "@chakra-ui/layout";
-import { Button } from "@chakra-ui/button";
+import { Box, Text } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import {
   Menu,
   MenuButton,
   MenuDivider,
   MenuItem,
   MenuList,
-} from "@chakra-ui/menu";
-import { Avatar } from '@chakra-ui/avatar';
+} from "@chakra-ui/react";
+import { Avatar } from '@chakra-ui/react';
 import { ChatState } from '../../../Context/ChatProvider';
 import ProfileModal from './profileModal';
 import { useHistory } from "react-router-dom"

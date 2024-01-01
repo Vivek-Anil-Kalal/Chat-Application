@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { VStack } from '@chakra-ui/layout'
-import { Button } from '@chakra-ui/button'
-import { Input, InputGroup, InputRightElement } from '@chakra-ui/input'
-import { FormControl, FormLabel } from '@chakra-ui/form-control'
+import { VStack } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
+import { Input, InputGroup, InputRightElement } from '@chakra-ui/react'
+import { FormControl, FormLabel } from '@chakra-ui/react'
 import { useToast } from '@chakra-ui/react'
 import { useHistory } from "react-router"
 import axios from 'axios'
